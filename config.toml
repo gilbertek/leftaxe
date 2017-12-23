@@ -3,9 +3,15 @@ languageCode = "en-us"
 title = "Leftaxe::Gilbert F. Sewovoe-Ekoue"
 theme = "minimo"
 
+disqusShortname = ""
+googleAnalytics = ""
+Paginate = 15
 preserveTaxonomyNames = true
 pygmentsCodeFences = true
 disablePathToLower = true
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true # generate robots.txt
 
 [params]
   name = "Gilbert F. Sewovoe-Ekoue"
@@ -30,7 +36,10 @@ disablePathToLower = true
 [author]
   name = "Gilbert F. Sewovoe-Ekoue"
 
-[author.social]
+[params.social.config]
+  platforms = ["github", "twitter", "email", "linkedin"]
+
+[params.social]
   email = "gilberts55@gmail.com"
   github = "gilbertek"
   twitter = "gilbertek"
@@ -39,8 +48,8 @@ disablePathToLower = true
 [permalinks]
   page = "/:slug/"
 
-# Language Configuration
-defaultContentLanguage = "en"
+[blackfriday]
+  hrefTargetBlank = true
 
 [languages]
   [languages.en]
