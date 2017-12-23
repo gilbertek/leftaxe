@@ -1,3 +1,49 @@
-baseURL = "http://example.org/"
+baseURL = "https://gilbertek.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Leftaxe::Gilbert F. Sewovoe-Ekoue"
+theme = "minimo"
+
+preserveTaxonomyNames = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+[params]
+  name = "Gilbert F. Sewovoe-Ekoue"
+  description = "Software Engineer & Bricoleur"
+  email = "gilberts55@gmail.com"
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "Gilbert F. Sewovoe-Ekoue"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  # customCSS = ["css/custom.css"]
+  hideSocialMenu = false
+  showReadTime = true
+
+[params.seo]
+  titleSeparator = "-"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[author]
+  name = "Gilbert F. Sewovoe-Ekoue"
+
+[author.social]
+  email = "gilberts55@gmail.com"
+  github = "gilbertek"
+  twitter = "gilbertek"
+  linkedin = "gilbertekoue"
+
+[permalinks]
+  page = "/:slug/"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
