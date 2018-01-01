@@ -4,8 +4,6 @@ title = "Gilbert F. Sewovoe-Ekoue"
 
 theme = "minimo"
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
 disqusShortname = ""
 googleAnalytics = ""
 
