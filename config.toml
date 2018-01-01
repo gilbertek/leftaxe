@@ -89,3 +89,8 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
