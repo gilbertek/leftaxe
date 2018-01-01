@@ -75,7 +75,6 @@ instagram = ""
 [params.copyright]
 prefix = ""
 holder = "Gilbert Sewovoe-Ekoue"
-# startYear = "2017"
 suffix = ""
 
 [permalinks]
