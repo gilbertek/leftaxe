@@ -1,6 +1,6 @@
 baseURL = "https://gilbertek.github.io"
 languageCode = "en-us"
-title = "Leftaxe::Gilbert F. Sewovoe-Ekoue"
+title = "Gilbert F. Sewovoe-Ekoue"
 
 theme = "minimo"
 
@@ -33,6 +33,7 @@ enableRobotsTXT = true # generate robots.txt
 [params.settings]
   name = "Gilbert F. Sewovoe-Ekoue"
   description = "Software Engineer & Bricoleur"
+  bio= "Software Engineer & Bricoleur"
 # email = "gilberts55@gmail.com"
   dateFormat = "2006, Jan 2"
   copyrightOwner = "Gilbert F. Sewovoe-Ekoue"
@@ -69,12 +70,15 @@ page = "" # Twitter page username
   github = "gilbertek"
   twitter = "gilbertek"
   linkedin = "gilbertekoue"
+  codepen = ""
+  facebook = ""
+  instagram = ""
 
 [params.copyright]
-  prefix = ""
-  holder = "G. F. S. E."
-  startYear = "2017"
-  suffix = ""
+prefix = ""
+holder = "Gilbert Sewovoe-Ekoue"
+# startYear = "2017"
+suffix = ""
 
 
 [permalinks]
