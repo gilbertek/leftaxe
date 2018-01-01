@@ -20,38 +20,36 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true # generate robots.txt
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+category = "categories"
+tag = "tags"
 
 [author]
-  name = "Gilbert F. Sewovoe-Ekoue"
+name = "Gilbert F. Sewovoe-Ekoue"
 
 [params.info]
-  description = ""
-  title404 = "Whoops! Nothing here."
+description = "Software Engineer & Bricoleur"
+title404 = "Whoops! Nothing here."
 
 [params.settings]
-  name = "Gilbert F. Sewovoe-Ekoue"
-  description = "Software Engineer & Bricoleur"
-  bio= "Software Engineer & Bricoleur"
-# email = "gilberts55@gmail.com"
-  dateFormat = "2006, Jan 2"
-  copyrightOwner = "Gilbert F. Sewovoe-Ekoue"
-  copyrightStartYear = "2017"
-  hideEntryNavigation = ["page"] # boolean / array of sections
-  recentPostsLength = 4
-  hideSocialMenu = false
-  showReadingTime = true
-  noTermCloudShuffle = false
+name = "Gilbert F. Sewovoe-Ekoue"
+description = "Software Engineer & Bricoleur"
+dateFormat = "2006, Jan 2"
+copyrightOwner = "Gilbert F. Sewovoe-Ekoue"
+copyrightStartYear = "2017"
+hideEntryNavigation = ["page"] # boolean / array of sections
+recentPostsLength = 4
+hideSocialMenu = false
+showReadingTime = true
+noTermCloudShuffle = false
 
 [params.assets]
-  favicon = "favicon.ico"
-  customCSS = ["css/custom.css"]
-  customJS = ["js/custom.js"]
-  gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.seo]
-  titleSeparator = "-"
+titleSeparator = "-"
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -63,16 +61,16 @@ page = "" # Twitter page username
 
 
 [params.social.config]
-  platforms = ["github", "twitter", "linkedin"]
+platforms = ["github", "twitter", "linkedin"]
 
 [params.social]
-  # email = "gilberts55@gmail.com"
-  github = "gilbertek"
-  twitter = "gilbertek"
-  linkedin = "gilbertekoue"
-  codepen = ""
-  facebook = ""
-  instagram = ""
+# email = "gilberts55@gmail.com"
+github = "gilbertek"
+twitter = "gilbertek"
+linkedin = "gilbertekoue"
+codepen = ""
+facebook = ""
+instagram = ""
 
 [params.copyright]
 prefix = ""
@@ -82,13 +80,13 @@ suffix = ""
 
 
 [permalinks]
-  page = "/:slug/"
+page = "/:slug/"
 
 [blackfriday]
-  hrefTargetBlank = true
+hrefTargetBlank = true
 
 [languages]
-  [languages.en]
-    lang = "en"
-    languageName = "English"
-    weight = 1
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
