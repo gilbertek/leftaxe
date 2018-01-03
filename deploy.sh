@@ -6,23 +6,28 @@
 
 set -e # stop on error
 
-BLOG_DIR="../gilbertek.github.io"
+DEPLOY_DIR=~/Projects/BLOG/gilbertek.github.io/
+SOURCE_DIR=~/Projects/BLOG/leftaxe/
 
 # Set the English locale for the `date` command.
  export LC_TIME=en_US.UTF-8
 
-if [[ $(git status -s) ]]
-then
-  echo "The working directory is dirty. Please commit any pending changes."
-  exit 1;
+# if [[ $(git status -s) ]]
+# then
+#   echo "The working directory is dirty. Please commit any pending changes."
+#   exit 1;
+# fi
+
+if [ ! -d "$DEPLOY_DIR" ]; then
+  echo "Deploy directory '$DEPLOY_DIR' does not exist. Aborting." >&2
+  return 1
 fi
 
-
 echo "Generating site"
-HUGO_ENV="production" hugo -d $BLOG_DIR
+HUGO_ENV="production" hugo -d $DEPLOY_DIR
 
 # Go To Public site folder
-(cd $BLOG_DIR || exit)
+cd $DEPLOY_DIR
 
 # Commit changes.
 msg="Rebuilding portfolio site: $(date)"
@@ -36,4 +41,5 @@ git commit -m "$msg"
 
 echo "pushing site"
 git push origin master
-(cd .. || exit)
+cd $SOURCE_DIR
+echo "deployed leftaxe to https://gilbertek.github.com"
