@@ -82,6 +82,7 @@ page = "/:slug/"
 
 [blackfriday]
 hrefTargetBlank = true
+plainIDAnchors = true
 
 [languages]
 [languages.en]
