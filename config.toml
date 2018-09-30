@@ -1,4 +1,4 @@
-baseURL = "https://gilbertek.github.io/"
+baseURL = "https://leftaxe.com/"
 languageCode = "en-us"
 title = "Gilbert F. Sewovoe-Ekoue"
 
@@ -7,7 +7,7 @@ enableemoji = "true"
 disqusShortname = ""
 googleAnalytics = ""
 
-Paginate = 15
+Paginate = 20
 
 preserveTaxonomyNames = true
 
@@ -41,6 +41,7 @@ recentPostsLength = 4
 hideSocialMenu = false
 showReadingTime = true
 noTermCloudShuffle = false
+googleAnalyticsUserID=""
 
 [params.assets]
 favicon = "favicon.ico"
@@ -61,7 +62,7 @@ page = "" # Twitter page username
 
 
 [params.social.config]
-platforms = ["github", "twitter", "linkedin"]
+platforms = ["github", "linkedin"]
 
 [params.social]
 # email = "gilberts55@gmail.com"
