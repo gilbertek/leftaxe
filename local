@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Runs just Hugo server for local authoring
+# (changes will not be deployed)
+
+# Start Hugo server.
+hugo server --buildDrafts
+

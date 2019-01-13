@@ -14,6 +14,8 @@ preserveTaxonomyNames = true
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodeFences = true
 
+enableGitInfo = true
+
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
@@ -24,7 +26,7 @@ category = "categories"
 tag = "tags"
 
 [author]
-name = "Gilbert F. Sewovoe-Ekoue"
+  name = "Gilbert F. Sewovoe-Ekoue"
 
 [params.info]
 description = "Software Engineer & Bricoleur"

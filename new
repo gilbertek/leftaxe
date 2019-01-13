@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+EXPECTED_ARGS=1
+E_BADARGS=65
+
+# Uses Hugo to create a new post based on the current date and the provided title
+# e.g., new my-awesome-blog-post will create content/YYYY/MM/DD/my-awesome-blog-post/index.md
+
+# Require one argument
+if [ $# -ne $EXPECTED_ARGS ]
+then
+  echo "Usage: new <title-of-post>"
+  exit $E_BADARGS
+fi
+
+datePrefix=$(date +'%Y/%m/%d/')
+postTitle=$1
+postDir='posts/'
+pathSuffix='/index.md'
+
+postPath="$postDir$datePrefix$postTitle$pathSuffix"
+
+hugo new $postPath
+
