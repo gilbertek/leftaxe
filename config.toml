@@ -5,9 +5,9 @@ title = "Gilbert F. Sewovoe-Ekoue"
 theme = "minimo"
 enableemoji = "true"
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-133296755-1"
 
-Paginate = 20
+Paginate = 10
 
 preserveTaxonomyNames = true
 
@@ -22,78 +22,73 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true # generate robots.txt
 
 [taxonomies]
-category = "categories"
-tag = "tags"
+  category = "categories"
+  tag = "tags"
 
 [author]
   name = "Gilbert F. Sewovoe-Ekoue"
 
 [params.info]
-description = "Software Engineer & Bricoleur"
-title404 = "Whoops! Nothing here."
+  description = "Software Engineer & Bricoleur"
+  title404 = "Whoops! Nothing here."
 
 [params.settings]
-name = "Gilbert F. Sewovoe-Ekoue"
-description = "Software Engineer & Bricoleur"
-dateFormat = "2006, Jan 2"
-copyrightOwner = "Gilbert F. Sewovoe-Ekoue"
-copyrightStartYear = "2017"
-hideEntryNavigation = ["page"] # boolean / array of sections
-recentPostsLength = 4
-hideSocialMenu = false
-showReadingTime = true
-noTermCloudShuffle = false
-googleAnalyticsUserID=""
+  name = "Gilbert F. Sewovoe-Ekoue"
+  description = "Software Engineer & Bricoleur"
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "Gilbert F. Sewovoe-Ekoue"
+  copyrightStartYear = "2017"
+  hideEntryNavigation = ["page"] # boolean / array of sections
+  recentPostsLength = 4
+  hideSocialMenu = false
+  showReadingTime = true
+  noTermCloudShuffle = false
 
 [params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+  favicon = "favicon.ico"
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+  gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.seo]
-titleSeparator = "-"
+  titleSeparator = "-"
 
 [params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
+  admins = [] # array of Facebook IDs
+  appID = ""
+  pageID = ""
 
 [params.opengraph.twitter]
-page = "" # Twitter page username
+  page = "" # Twitter page username
 
 
 [params.social.config]
-platforms = ["github", "linkedin"]
+  platforms = ["github", "linkedin"]
 
 [params.social]
-# email = "gilberts55@gmail.com"
-github = "gilbertek"
-twitter = "gilbertek"
-linkedin = "gilbertekoue"
-codepen = ""
-facebook = ""
-instagram = ""
+  # email = "gilberts55@gmail.com"
+  github = "gilbertek"
+  twitter = "gilbertek"
+  linkedin = "gilbertekoue"
+  codepen = ""
 
 [params.copyright]
-prefix = ""
-holder = "Gilbert Sewovoe-Ekoue"
-suffix = ""
+  prefix = ""
+  holder = "Gilbert Sewovoe-Ekoue"
+  suffix = ""
 
 [permalinks]
-page = "/:slug/"
+  page = "/:slug/"
 
 [blackfriday]
-hrefTargetBlank = true
-plainIDAnchors = true
+  hrefTargetBlank = true
+  plainIDAnchors = true
 
 [languages]
 [languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+  weight = 1
 
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 3
+  name = "About"
+  url = "/about/"
+  weight = 3
