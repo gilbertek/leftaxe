@@ -29,7 +29,7 @@ enableRobotsTXT = true # generate robots.txt
   name = "Gilbert F. Sewovoe-Ekoue"
 
 [params.info]
-  description = "Software Engineer & Bricoleur"
+  description = "Hacker. Builder. Leader."
   title404 = "Whoops! Nothing here."
 
 [params.settings]
