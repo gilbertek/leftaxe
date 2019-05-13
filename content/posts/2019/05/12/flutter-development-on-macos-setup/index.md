@@ -1,8 +1,11 @@
 ---
 title: "Index"
 date: 2019-05-12T13:50:18-04:00
-tags: ["Dart", "Flutter"]
 ---
+
+# Flutter development on macos setup
+
+Install Google's Dart programming language
 
 ```bash
 brew tap dart-lang/dart
