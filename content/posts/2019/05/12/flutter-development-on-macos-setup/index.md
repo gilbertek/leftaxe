@@ -1,8 +1,9 @@
 ---
 title: "Flutter Development on MacOs setup"
-categories: ["development"]
-tags: ["dart", "flutter"]
 date: 2019-05-12T13:50:18-04:00
+tags:
+  - Dart
+  - Flutter
 ---
 
 Install Google's Dart programming language

@@ -8,7 +8,6 @@ disqusShortname = ""
 googleAnalytics = "UA-133296755-1"
 
 Paginate = 10
-
 preserveTaxonomyNames = true
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
@@ -43,6 +42,11 @@ enableRobotsTXT = true # generate robots.txt
   hideSocialMenu = false
   showReadingTime = true
   noTermCloudShuffle = false
+  showLastmod = true
+
+[params.widgets]
+  homepage = ["recent_posts"]
+  footer = ["social_menu"]
 
 [params.assets]
   favicon = "favicon.ico"
@@ -53,17 +57,8 @@ enableRobotsTXT = true # generate robots.txt
 [params.seo]
   titleSeparator = "-"
 
-[params.opengraph.facebook]
-  admins = [] # array of Facebook IDs
-  appID = ""
-  pageID = ""
-
-[params.opengraph.twitter]
-  page = "" # Twitter page username
-
-
 [params.social.config]
-  platforms = ["github", "linkedin"]
+  platforms = ["github", "linkedin", "twitter"]
 
 [params.social]
   # email = "gilberts55@gmail.com"
@@ -82,11 +77,13 @@ enableRobotsTXT = true # generate robots.txt
 
 [blackfriday]
   hrefTargetBlank = true
-  plainIDAnchors = true
 
 [languages]
+
 [languages.en]
   weight = 1
+  lang = "en"
+  languageName = "English"
 
 [[menu.main]]
   name = "About"
