@@ -58,12 +58,12 @@ enableRobotsTXT = true # generate robots.txt
   titleSeparator = "-"
 
 [params.social.config]
-  platforms = ["github", "linkedin", "twitter"]
+  platforms = ["github", "linkedin"]
 
 [params.social]
   # email = "gilberts55@gmail.com"
   github = "gilbertek"
-  twitter = "gilbertek"
+  twitter = "gilberttek"
   linkedin = "gilbertekoue"
   codepen = ""
 
