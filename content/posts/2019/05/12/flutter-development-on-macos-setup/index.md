@@ -1,5 +1,5 @@
 ---
-title: "Flutter Development on MacOs setup"
+title: "Flutter Development on macOs setup"
 date: 2019-05-12T13:50:18-04:00
 tags:
   - Dart

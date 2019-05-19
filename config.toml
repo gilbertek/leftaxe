@@ -4,14 +4,15 @@ title = "Gilbert F. Sewovoe-Ekoue"
 
 theme = "minimo"
 enableemoji = "true"
-disqusShortname = ""
 googleAnalytics = "UA-133296755-1"
 
-Paginate = 10
+Paginate = 5
+
 preserveTaxonomyNames = true
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodeFences = true
+PygmentsStyle = "friendly"
 
 enableGitInfo = true
 
@@ -42,7 +43,6 @@ enableRobotsTXT = true # generate robots.txt
   hideSocialMenu = false
   showReadingTime = true
   noTermCloudShuffle = false
-  showLastmod = true
 
 [params.widgets]
   homepage = ["recent_posts"]
@@ -63,9 +63,8 @@ enableRobotsTXT = true # generate robots.txt
 [params.social]
   # email = "gilberts55@gmail.com"
   github = "gilbertek"
-  twitter = "gilberttek"
+  # twitter = "gilberttek"
   linkedin = "gilbertekoue"
-  codepen = ""
 
 [params.copyright]
   prefix = ""
